@@ -6,7 +6,18 @@ body {
     text-decoration: none;
   }
   
-  .et-hero-tabs,
+  .et-hero-tabs {
+    background: #A0C3D2; /* #ABC4AA #AEBDCA */;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    padding: 0 2em;
+  }
+  /* .et-hero-tabs,
   .et-slide {
     display: flex;
     flex-direction: column;
@@ -17,7 +28,7 @@ body {
     background: #eee;
     text-align: center;
     padding: 0 2em;
-  }
+  } */
   .et-hero-tabs h1,
   .et-slide h1 {
     font-size: 2rem;
@@ -85,6 +96,76 @@ body {
     .et-hero-tab {
       font-size: 1rem;
     }
+  }
+
+  .et-slide-consult {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: #AEBDCA;
+    text-align: left;
+    padding: 0 5em;
+  }
+  .et-slide-consult h2 {
+    text-align: center;
+  }
+  .et-slide-support {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: #EAC7C7;
+    text-align: center;
+    padding: 0 2em;
+  }
+  .et-slide-protect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: #F3DEBA;
+    text-align: center;
+    padding: 0 2em;
+  }
+  .et-slide-assist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: #EAE0DA;
+    text-align: center;
+    padding: 0 2em;
+  }
+  .et-slide-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: #BFCCB5;
+    text-align: center;
+    padding: 0 2em;
+  }
+  .et-slide-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: #675D50;
+    text-align: center;
+    padding: 0 2em;
   }
 
   /* === Start CSS Filter Card === */
