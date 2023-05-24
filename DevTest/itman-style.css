@@ -1,6 +1,12 @@
 body {
     font-family: "Century Gothic", "Lato", sans-serif;
   }
+
+/* body{
+    height: 100%;
+    font-family: Arial;
+    font-size: 17px;
+  } */
   
   a {
     text-decoration: none;
@@ -29,19 +35,29 @@ body {
     text-align: center;
     padding: 0 2em;
   } */
-  .et-hero-tabs h1,
-  .et-slide h1 {
+
+
+  .et-hero-tabs h1 {
     font-size: 2rem;
     margin: 0;
     letter-spacing: 1rem;
   }
-  .et-hero-tabs h3,
-  .et-slide h3 {
+  .et-hero-tabs h3 {
     font-size: 1rem;
     letter-spacing: 0.3rem;
     opacity: 0.6;
   }
+  .et-slide-consult h1 {
+    font-size: 2rem;
+    margin: 0;
+    letter-spacing: 1rem;
+  }
   
+  .et-slide-consult h3 {
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    opacity: 0.6;
+  }
   .et-hero-tabs-container {
     display: flex;
     flex-direction: row;
@@ -168,6 +184,60 @@ body {
     padding: 0 2em;
   }
 
+
+  /* Start Slide Consult Transparent Text */
+
+  /* Float four columns side by side */
+.column {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+}
+  /* Remove extra left and right margins, due to padding */
+.row {
+  margin: 50 -5px;
+  padding: 50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.content h1 {
+    font-size: 25px;
+}
+.content p {
+    font-size: 15px;
+}
+
   /* === Start CSS Filter Card === */
   :root{
     --background-dark: #2d3548;
@@ -194,9 +264,6 @@ body {
     font-size: 14px;
   }
   
-  body{
-    height: 100%;
-  }
   
   .hero-section{
     align-items: flex-start;
