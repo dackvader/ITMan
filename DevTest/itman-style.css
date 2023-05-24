@@ -218,9 +218,12 @@ body {
   position: relative;
   max-width: 800px;
   margin: 0 auto;
+  /* padding: 20px; */
 }
 
-.container img {vertical-align: middle;}
+.container img {
+  vertical-align: middle;
+}
 
 .container .content {
   position: absolute;
