@@ -155,15 +155,19 @@ a {
   }
 }
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
+
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
-  width: 33.33%;
-  padding: 15px;
+  width: 25%;
+  padding: 0 10px;
 }
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
 
 /* Clear floats after the columns */
 .row::after {
@@ -174,6 +178,8 @@ a {
 @media screen and (max-width:600px) {
   .column {
     width: 100%;
+    display: block;
+    margin-bottom: 20px;
   }
 }
 
@@ -186,13 +192,13 @@ a {
 } */
 
 .container {
-  /* display: grid;
+  display: flex;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem; */
+  grid-gap: 2rem;
   position: relative;
   max-width: 400px;
   height: 300px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 p {
   font-size: 14px;
