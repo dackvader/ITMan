@@ -9,6 +9,8 @@ body {
     font-size: 17px;
   } */
   
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+  
   a {
     text-decoration: none;
   }
@@ -139,6 +141,13 @@ body {
     background: #EAC7C7;
     text-align: center;
     padding: 0 2em;
+  }
+  .et-slide-support h1 {
+    font-family: 'Roboto Mono', monospace;
+  }
+  .et-slide-support h3 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
   }
   .et-slide-protect {
     display: flex;
