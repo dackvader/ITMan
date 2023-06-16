@@ -1,13 +1,12 @@
 body {
     font-family: "Century Gothic", "Lato", sans-serif;
-  }
-  
+}
   a {
     text-decoration: none;
   }
   
   .et-itman-tabs,
-  .et-slide {
+  .et-slide { 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,19 +15,104 @@ body {
     position: relative;
     background: #eee;
     text-align: center;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
     padding: 0 2em;
   }
   .et-itman-tabs h1,
-  .et-slide h1 {
-    font-size: 2rem;
+  .et-slide-consult h1 {
+    font-size: 20rem;
     margin: 0;
     letter-spacing: 1rem;
   }
   .et-itman-tabs h3,
-  .et-slide h3 {
+  .et-slide-consult h3 {
     font-size: 1rem;
     letter-spacing: 0.3rem;
     opacity: 0.6;
+  }
+
+  .et-slide-support h1 {
+    font-size: 20rem;
+    margin: 0;
+    letter-spacing: 1rem;
+  }
+  .et-slide-support h3 {
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    opacity: 0.6;
+  }
+
+  .et-slide-consult {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: #eee;
+    text-align: center;
+    background-image: linear-gradient(120deg, #8ec894 0%, #d7e951 100%);
+    padding: 0 2em;
+  }
+  .et-slide-support {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: #eee;
+    text-align: center;
+    background-image: linear-gradient(120deg, #84cf80 0%, #61ece9 100%);
+    padding: 0 2em;
+  }
+  .et-slide-protect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: #eee;
+    text-align: center;
+    background-image: linear-gradient(120deg, #84cf80 0%, #61ece9 100%);
+    padding: 0 2em;
+  }  
+  .et-slide-assistant {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: #eee;
+    text-align: center;
+    background-image: linear-gradient(120deg, #84cf80 0%, #61ece9 100%);
+    padding: 0 2em;
+  }
+  .et-slide-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: #eee;
+    text-align: center;
+    background-image: linear-gradient(120deg, #84cf80 0%, #61ece9 100%);
+    padding: 0 2em;
+  }
+  .et-slide-contactus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: #eee;
+    text-align: center;
+    background-image: linear-gradient(120deg, #84cf80 0%, #61ece9 100%);
+    padding: 0 2em;
   }
   
   .et-itman-tabs-container {
@@ -86,3 +170,4 @@ body {
       font-size: 1rem;
     }
   }
+  
