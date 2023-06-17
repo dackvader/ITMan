@@ -1,0 +1,9 @@
+/* วิธีการกำหนด comment */
+
+p#message{
+    color: green;
+    font-size: 50px;
+}
+h1.title{
+    color: blue;
+}
