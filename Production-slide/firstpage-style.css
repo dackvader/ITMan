@@ -42,6 +42,50 @@ body {
     opacity: 0.6;
   }
 
+  .et-slide-protect h1 {
+    font-size: 20rem;
+    margin: 0;
+    letter-spacing: 1rem;
+  }
+  .et-slide-protect h3 {
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    opacity: 0.6;
+  }
+
+  .et-slide-assistant h1 {
+    font-size: 20rem;
+    margin: 0;
+    letter-spacing: 1rem;
+  }
+  .et-slide-assistant h3 {
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    opacity: 0.6;
+  }
+
+  .et-slide-price h1 {
+    font-size: 20rem;
+    margin: 0;
+    letter-spacing: 1rem;
+  }
+  .et-slide-price h3 {
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    opacity: 0.6;
+  }
+
+  .et-slide-contactus h1 {
+    font-size: 10rem;
+    margin: 0;
+    letter-spacing: 1rem;
+  }
+  .et-slide-contactus h3 {
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    opacity: 0.6;
+  }
+
   .et-slide-consult {
     display: flex;
     flex-direction: column;
