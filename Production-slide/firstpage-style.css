@@ -9,7 +9,7 @@ body {
   .et-slide { 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     height: 100vh;
     position: relative;
@@ -20,7 +20,7 @@ body {
   }
   .et-itman-tabs h1,
   .et-slide-consult h1 {
-    font-size: 20rem;
+    font-size: 5rem;
     margin: 0;
     letter-spacing: 1rem;
   }
