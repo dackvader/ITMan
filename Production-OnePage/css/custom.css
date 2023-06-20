@@ -1,0 +1,165 @@
+html[lang*='en'] h1 {
+    font-family: "sourcesanspro";
+    font-size: 60px;
+    font-weight: normal; }
+  
+  html[lang*='en'] h2 {
+    font-family: "sourcesanspro";
+    font-size: 40px;
+    font-weight: normal; }
+  
+  html[lang*='en'] h3 {
+    font-family: "sourcesanspro";
+    font-size: 30px;
+    font-weight: normal; }
+  
+  html[lang*='en'] h4 {
+    font-family: "sourcesanspro";
+    font-size: 20px;
+    font-weight: normal; }
+  
+  html[lang*='en'] h5 {
+    font-family: "sourcesanspro";
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.2; }
+  
+  html[lang*='en'] nav,
+  html[lang*='en'] .nav {
+    font-family: "sourcesanspro"; }
+  
+  /*html[lang*='en'] strong{
+      font-family: "sourcesanspro";
+      font-weight: 500 !important;
+  }*/
+  html[lang*='en'] a {
+    font-family: "sourcesanspro";
+    font-size: 14px; }
+  
+  html[lang*='en'] #lang-bar a > span {
+    font-family: "sourcesanspro";
+    font-weight: 500 !important; }
+  
+  html[lang*='en'] #top-bar > li > a {
+    font-family: "sourcesanspro";
+    font-weight: 100 !important; }
+  
+  html[lang*='en'] .navbar-default a {
+    font-family: "sourcesanspro";
+    font-size: 16px; }
+  
+  html[lang*='en'] footer #footer-sitemap > ul > li > a {
+    font-family: "sourcesanspro";
+    text-transform: uppercase; }
+  
+  html[lang*='en'] footer #footer-sitemap > ul > li > ul > li a {
+    font-family: "sourcesanspro";
+    font-weight: normal; }
+  
+  html[lang*='en'] footer #footer-addr {
+    font-family: "sourcesanspro";
+    font-size: 16px; }
+  
+  html[lang*='th'] h1 {
+    font-family: "supermarket";
+    font-size: 60px;
+    font-weight: normal; }
+  
+  html[lang*='th'] h2 {
+    font-family: "supermarket";
+    font-size: 38px;
+    font-weight: normal; }
+  
+  html[lang*='th'] h3 {
+    font-family: "supermarket";
+    font-size: 30px;
+    font-weight: normal; }
+  
+  html[lang*='th'] h4 {
+    font-family: "supermarket";
+    font-size: 24px;
+    font-weight: normal; }
+  
+  html[lang*='th'] h5 {
+    font-family: "supermarket";
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.25; }
+  
+  html[lang*='th'] nav a,
+  html[lang*='th'] .navbar-nav > li > a {
+    font-family: "supermarket";
+    font-size: 17px; }
+  
+  html[lang*='th'] a {
+    font-family: "supermarket";
+    font-size: 16px; }
+  
+  html[lang*='th'] #lang-bar a > span {
+    font-family: "supermarket";
+    font-weight: 500 !important; }
+  
+  html[lang*='th'] #top-bar > li > a {
+    font-family: "supermarket";
+    font-weight: 100 !important; }
+  
+  html[lang*='th'] .navbar-default a {
+    font-family: "supermarket";
+    font-size: 18px; }
+  
+  html[lang*='th'] footer #footer-sitemap > ul > li > a {
+    font-family: "supermarket";
+    text-transform: uppercase; }
+  
+  html[lang*='th'] footer #footer-sitemap > ul > li > ul > li a {
+    font-family: "supermarket";
+    font-weight: normal; }
+  
+  html[lang*='th'] footer #footer-addr {
+    font-family: "supermarket";
+    font-size: 16px; }
+  
+  html[lang*='en'] .navbar-nav > li.divider:after {
+    font-size: 10px;
+    margin-top: -2px;
+    /*padding: 0 22px;*/
+    /*padding: 0 35px;*/
+    padding: 0 12px;
+  
+  }
+  
+  html[lang*='th'] .navbar-nav > li.divider:after {
+    font-size: 20px;
+    margin-top: -7px;
+    /*padding: 0 20px;*/
+    padding: 0 8px;
+  
+  }
+  
+  .breadcrumb li,
+  .breadcrumb li > a {
+    font-family: "Cordia New",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    line-height: 1; }
+  
+  body {
+    font-family: "Cordia New",Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    line-height: 1;
+    color: #576b7c !important; }
+  
+  #content {
+    line-height: 1.25; }
+  
+  .text-semi-bold {
+    font-weight: 500 !important; }
+  
+  .text-lighter {
+    font-weight: 100 !important; }
+  
+  .headline {
+    color: #f05423; }
+  
+  .highlight {
+    color: #4c4c53; }
+  
