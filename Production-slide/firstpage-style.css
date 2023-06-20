@@ -9,7 +9,7 @@ body {
   .et-slide { 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     height: 100vh;
     position: relative;
@@ -20,7 +20,7 @@ body {
   }
   .et-itman-tabs h1,
   .et-slide-consult h1 {
-    font-size: 20rem;
+    font-size: 5rem;
     margin: 0;
     letter-spacing: 1rem;
   }
@@ -95,7 +95,7 @@ body {
     position: relative;
     background: #eee;
     text-align: center;
-    background-image: linear-gradient(120deg, #8ec894 0%, #d7e951 100%);
+    background-image: linear-gradient(120deg, #c4f8c9 0%, #ebf1bb 100%);
     padding: 0 2em;
   }
   .et-slide-support {
@@ -107,7 +107,7 @@ body {
     position: relative;
     background: #eee;
     text-align: center;
-    background-image: linear-gradient(120deg, #84cf80 0%, #61ece9 100%);
+    background-image: linear-gradient(120deg, #bdf0ba 0%, #9debe9 100%);
     padding: 0 2em;
   }
   .et-slide-protect {
@@ -119,7 +119,7 @@ body {
     position: relative;
     background: #eee;
     text-align: center;
-    background-image: linear-gradient(120deg, #84cf80 0%, #61ece9 100%);
+    background-image: linear-gradient(120deg, #a7daee 0%, #c1ccfc 100%);
     padding: 0 2em;
   }  
   .et-slide-assistant {
@@ -131,7 +131,7 @@ body {
     position: relative;
     background: #eee;
     text-align: center;
-    background-image: linear-gradient(120deg, #84cf80 0%, #61ece9 100%);
+    background-image: linear-gradient(120deg, #bbbaf8 0%, #f1b3f3 100%);
     padding: 0 2em;
   }
   .et-slide-price {
@@ -143,7 +143,7 @@ body {
     position: relative;
     background: #eee;
     text-align: center;
-    background-image: linear-gradient(120deg, #84cf80 0%, #61ece9 100%);
+    background-image: linear-gradient(120deg, #f8c5eb 0%, #fcb7b7 100%);
     padding: 0 2em;
   }
   .et-slide-contactus {
@@ -155,7 +155,7 @@ body {
     position: relative;
     background: #eee;
     text-align: center;
-    background-image: linear-gradient(120deg, #84cf80 0%, #61ece9 100%);
+    background-image: linear-gradient(120deg, #cdf1cb 0%, #bcfaf9 100%);
     padding: 0 2em;
   }
   
