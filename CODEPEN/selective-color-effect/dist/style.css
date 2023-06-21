@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans");
+
+:root {
+  --val: 0deg;
+  --gray_val: 1;
+  --anim_time: 0.3s;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  background: gray;
+  overscroll-behavior-x: none;
+  overscroll-behavior-y: none;
+}
+body {
+  font-family: "Shantell Sans", serif;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  font-size: max(18px, 2.3vw);
+}
+h1,
+h2 {
+  font-weight: 500;
+  line-height: 1;
+}
+h1 {
+  --h1_height: 13vmin;
+  position: relative;
+  font-size: 9.3vmin;
+  width: 100vmin;
+  height: var(--h1_height);
+  line-height: var(--h1_height);
+  z-index: 2;
+  background: transparent;
+  transform-origin: center;
+  transform: rotate(var(--val));
+}
+h1:before {
+  position: absolute;
+  width: 150vmax;
+  height: 100%;
+  top: 0;
+  left: -25vmax;
+  content: "";
+  background: gray;
+  z-index: -1;
+}
+h2 {
+  font-size: 7vw;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+canvas,
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50vw;
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+  z-index: -1;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+img {
+  display: block;
+  filter: grayscale(var(--gray_val));
+  transition: filter var(--anim_time);
+  transform: translateZ(0);
+}
+section:hover img {
+  filter: grayscale(0);
+}
+#contents {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+section {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50vh;
+  width: 50vw;
+  z-index: 1;
+}
+section:nth-of-type(1) {
+  top: 0;
+  left: 0;
+}
+section:nth-of-type(2) {
+  top: 0;
+  right: 0;
+}
+section:nth-of-type(3) {
+  bottom: 0;
+  left: 0;
+}
+section:nth-of-type(4) {
+  bottom: 0;
+  right: 0;
+}
+section div h2 {
+  display: none;
+}
+section div p {
+  display: none;
+  position: absolute;
+  font-size: 5vw;
+  font-weight: 800;
+  opacity: 1;
+  transition: opacity var(--anim_time);
+}
+section:hover div p {
+  opacity: 0;
+}
+section:nth-of-type(1) div p {
+  color: purple;
+}
+section:nth-of-type(2) div p {
+  color: yellow;
+}
+section:nth-of-type(3) div p {
+  color: pink;
+}
+section:nth-of-type(4) div p {
+  color: red;
+}
+.info {
+  position: absolute;
+  font-size: 2.5vw;
+  padding: 0 0.5em;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  opacity: 0;
+  transition: opacity var(--anim_time);
+}
+section:hover .info {
+  opacity: 1;
+}
+@media (orientation: landscape) {
+  .info {
+    bottom: 0;
+  }
+  section div p {
+    top: 0;
+  }
+  section:nth-of-type(1) .info,
+  section:nth-of-type(3) .info,
+  section:nth-of-type(1) div p,
+  section:nth-of-type(3) div p {
+    left: 0;
+  }
+  section:nth-of-type(2) .info,
+  section:nth-of-type(4) .info,
+  section:nth-of-type(2) div p,
+  section:nth-of-type(4) div p {
+    right: 0;
+  }
+}
+@media (orientation: portrait) {
+  .info {
+    right: 0;
+  }
+  section div p {
+    left: 0;
+  }
+  section:nth-of-type(1) .info,
+  section:nth-of-type(2) .info,
+  section:nth-of-type(1) div p,
+  section:nth-of-type(2) div p {
+    top: 0;
+  }
+  section:nth-of-type(3) .info,
+  section:nth-of-type(4) .info,
+  section:nth-of-type(3) div p,
+  section:nth-of-type(4) div p {
+    bottom: 0;
+  }
+}
