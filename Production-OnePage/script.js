@@ -1,6 +1,9 @@
 let burger = document.getElementById("burger");
 let overlay = document.querySelector("section");
 let heroImage = document.querySelector(".hero-image");
+
+let salad = document.getElementById("salad");
+
 let showMenu = false;
 let del = 3;
 let i = 1;
@@ -31,6 +34,27 @@ burger.addEventListener("click", (e) => {
     });
   }
 });
+
+
+salad.addEventListener("click", (e) => {
+  showMenu = !showMenu;
+  if (showMenu) {
+    salad.classList.add("active");
+    overlay.style.display = "block";
+    gsap.to(overlay, 1, {
+      clipPath: "polygon(0% 0%, 100% 0, 100% 100%, 0% 100%)",
+      ease: "expo.in"
+    });
+  } else {
+    salad.classList.remove("active");
+    gsap.to(overlay, 1, {
+      clipPath: "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)",
+      ease: "expo.out",
+      onComplete: () => (overlay.style.display = "none")
+    });
+  }
+});
+
 
 gsap.set(["#hero-1 h2, #hero-1 h1, #hero-1 h3"], {
   clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)"
