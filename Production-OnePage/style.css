@@ -39,7 +39,7 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-nav h1 {
+nav #salad {
   font-size: clamp(1.2rem, 6vw, 3rem);
   font-weight: normal;
   text-transform: uppercase;
@@ -48,6 +48,7 @@ nav h1 {
   background-color: var(--red);
   padding: 5px 10px;
 }
+
 nav ul {
   display: flex;
   color: var(--white);

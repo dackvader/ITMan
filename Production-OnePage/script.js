@@ -56,6 +56,8 @@ salad.addEventListener("click", (e) => {
 });
 
 
+
+
 gsap.set(["#hero-1 h2, #hero-1 h1, #hero-1 h3"], {
   clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)"
 });
