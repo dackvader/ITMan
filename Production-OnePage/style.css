@@ -79,10 +79,7 @@ nav ul li:not(#burger) {
   transition: transform 0.3s 0.3s;
 }
 
-p{
-  /* font-size: 25px;
-  color: var(--red); */
-
+p {
   font-size: clamp(1.2rem, 6vw, 3rem);
   font-weight: normal;
   text-transform: uppercase;
@@ -162,44 +159,21 @@ a:link {
 }
 
 .hi-1 {
-  /* background-image: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"); */
   background-image: url("https://images.unsplash.com/photo-1612550761236-e813928f7271?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
 }
 
-/* Photo by Lucas Favre
-   https://unsplash.com/photos/BRTV55ErUZg
-
-   Consult
------------------------------------------------ */
 .hi-2 {
   background-image: url("https://images.unsplash.com/photo-1517057011470-8f36d636e6ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
 }
 
-/* Photo by Roell de Ram
-   https://unsplash.com/photos/2DM7eOR5iyc
-
-   Support
------------------------------------------------ */
 .hi-3 {
-  /* background-image: url("https://images.unsplash.com/flagged/photo-1552035791-b3cc1632e933?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80"); */
   background-image: url("https://images.unsplash.com/photo-1501998824360-d8a939ac8762?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1025&q=80");
 }
 
-/* Photo by Go to Bernd Wahlbrinck
-   https://unsplash.com/photos/lVVvYiR66kw
-
-   Protect
------------------------------------------------ */
 .hi-4 {
-  /* background-image: url("https://images.unsplash.com/photo-1574700273608-7962d3602a9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"); */
   background-image: url("https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
 }
 
-/* Photo by Micheal Schofield
-   https://unsplash.com/photos/d0ohwP3BRf4
-
-   Assistant
------------------------------------------------ */
 .hi-5 {
   background-image: url("https://images.unsplash.com/photo-1605045544284-d13c6d6a60a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
 }
@@ -214,7 +188,7 @@ section {
   min-height: 100vh;
   padding: 8em 5em 2em 5em;
   background-color: var(--white);
-  background-image: url("https://www.transparenttextures.com/patterns/church.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/church.png"); */
   clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
 }
 
