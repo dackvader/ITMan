@@ -99,7 +99,9 @@ article {
   left: 0;
   z-index: var(--i);
 }
-
+a:link {
+  text-decoration: none;
+}
 .hero-info {
   position: absolute;
   top: 50%;
