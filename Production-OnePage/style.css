@@ -14,6 +14,7 @@ body {
   --pill: #e0d4be;
   --red: #cc033f;
   --green: rgb(3, 150, 3);
+  --orange: rgb(241, 122, 52);
 }
 
 ul {
@@ -46,8 +47,9 @@ nav #salad {
   text-transform: uppercase;
   color: var(--pill);
   font-size: 1.3rem;
-  background-color: var(--red);
+  background-color: var(--orange);
   padding: 5px 10px;
+  cursor: pointer;
 }
 
 nav ul {
@@ -67,6 +69,7 @@ nav ul li:not(#burger) {
   justify-content: space-evenly;
   cursor: pointer;
 }
+
 #burger span {
   display: block;
   height: 3px;
@@ -76,6 +79,19 @@ nav ul li:not(#burger) {
   transition: transform 0.3s 0.3s;
 }
 
+p{
+  /* font-size: 25px;
+  color: var(--red); */
+
+  font-size: clamp(1.2rem, 6vw, 3rem);
+  font-weight: normal;
+  text-transform: uppercase;
+  color: var(--pill);
+  font-size: 1.3rem;
+  background-color: var(--orange);
+  padding: 5px 10px;
+  cursor: pointer;
+}
 .active span:nth-of-type(1) {
   transform: translateY(-3px) scaleX(1.3);
 }
