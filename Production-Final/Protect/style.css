@@ -10,6 +10,7 @@ body {
   color: #000;
   font-size: 15px;
   line-height: 1.5;
+  background-image: linear-gradient(120deg, #ffe3bd 0%, #acf1f0 100%);
 }
 
 a {
