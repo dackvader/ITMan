@@ -10,7 +10,7 @@ body {
   color: #000;
   font-size: 15px;
   line-height: 1.5;
-  background-image: linear-gradient(120deg, #f0e0af 0%, #f8b9a7 100%);
+  background-image: linear-gradient(120deg, #ffe3bd 0%, #acf1f0 100%);
 }
 
 a {
@@ -170,7 +170,7 @@ ul {
 .carbon {
   width: 100%;
   height: 350px;
-  background: url('https://i.ibb.co/72cgtsz/carbon.jpg') no-repeat center center/cover;
+  /* background: url('https://i.ibb.co/72cgtsz/carbon.jpg') no-repeat center center/cover; */
 }
 
 .carbon .content {
